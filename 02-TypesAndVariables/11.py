@@ -1,0 +1,5 @@
+ojciec=int(input("Enter father’s income: "))
+matka=int(input("Enter mother’s income: "))
+rodzina=int(input("Enter number of people in family: "))
+print(f"Total income: {ojciec+matka}")
+print(f"Income per person: {(ojciec+matka)/rodzina}")
