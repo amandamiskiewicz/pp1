@@ -9,5 +9,18 @@
 #Enter decimal number: 12
 #12(10) = 1100(2)
 
-dec=int(input("Enter decimal number: "))
-#bin do dokonczenia
+#bin=str
+#dec=int(input("Enter decimal number: "))
+#while dec/2!=0:
+   # a=str(dec%2)
+  #  dec=dec/2
+ #   bin+=a
+#print(bin)
+
+binary = ""
+dec = int(input("Enter decimal number: "))
+while dec > 0:
+    a = str(dec % 2)
+    dec = dec // 2
+    binary = a + binary
+print(f"{dec}(10) = {binary}(2)")
