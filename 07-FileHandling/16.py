@@ -5,3 +5,10 @@ Do not display the contents of the file. Sample result:
 File name: countries.txt
 Number of lines: 14
 '''
+
+inp = input("enter filename: ")
+file = open(inp)
+sum=0
+for line in file:
+    sum+=1
+print(sum)
