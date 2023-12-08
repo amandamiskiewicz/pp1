@@ -1,0 +1,12 @@
+{
+    "name": "John",
+    "age": 30,
+    "married": "yes",
+    "divorced": "no",
+    "children": "Ann",
+    "pets": 0,
+    "cars": [
+      {"model": "BMW 230", "mpg": 27.5},
+      {"model": "Ford Edge", "mpg": 24.1}
+    ]
+}

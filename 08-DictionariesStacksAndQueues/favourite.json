@@ -1,0 +1,10 @@
+{
+  "title": "abc",
+  "year": 2010,
+  "actor": {
+    "leading": "aaa",
+    "supporting": "bbb"
+  },
+  "oscar": false,
+  "grade": 4
+}
